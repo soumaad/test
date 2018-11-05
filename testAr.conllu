@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = يُشار إلى أن اللغة العربية يتحدثها أكثر من 422 مليون نسمة ويتوزع متحدثوها في المنطقة المعروفة باسم الوطن العربي بالإضافة إلى العديد من المناطق الأخرى المجاورة مثل الأهواز وتركيا وتشاد والسنغال وإريتريا وغيرها.
+1	يُشار	أَشَار	VERB	VIIP-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	إلى	إِلَى	ADP	P---------	AdpType=Prep	6	mark	_	_
+3	أن	أَنَّ	CCONJ	C---------	_	6	mark	_	_
+4	اللغة	لُغَة	NOUN	N------S4D	Case=Acc|Definite=Def|Number=Sing	6	nsubj	_	_
+5	العربية	عَرَبِيّ	ADJ	A-----FS4D	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	amod	_	_
+6-7	يتحدثها	_	_	_	_	_	_	_	_
+6	يتحدث	تَحَدَّث	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+7	ها	هُوَ	PRON	SP---3FS4-	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	أكثر	أَكثَر	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_
+9	من	مِن	ADP	P---------	AdpType=Prep	10	case	_	_
+10	422	422	NUM	Q---------	NumForm=Digit	8	nummod	_	_
+11	مليون	مِليُون	NUM	QM-----S4R	Case=Acc|Definite=Cons|Number=Sing|NumForm=Word	10	nummod	_	_
+12	نسمة	نَسَمَة	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	11	nmod	_	_
+13	ويتوزع	ويتوزع	X	U---------	_	6	nsubj	_	_
+14-15	متحدثوها	_	_	_	_	_	_	_	_
+14	متحدثو	متحدثو	NOUN	N------P1R	Case=Nom|Definite=Cons|Number=Plur	13	nmod	_	_
+15	ها	هُوَ	PRON	SP---3FS2-	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
+16	في	فِي	ADP	P---------	AdpType=Prep	17	case	_	_
+17	المنطقة	مِنطَقَة	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
+18	المعروفة	مَعرُوف	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	amod	_	_
+19-20	باسم	_	_	_	_	_	_	_	_
+19	ب	بِ	ADP	P---------	AdpType=Prep	20	case	_	_
+20	اسم	اِسم	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	18	obl	_	_
+21	الوطن	وَطَن	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	20	nmod	_	_
+22	العربي	عَرَبِيّ	ADJ	A-----MS2D	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	amod	_	_
+23-24	بالإضافة	_	_	_	_	_	_	_	_
+23	ب	بِ	ADP	P---------	AdpType=Prep	26	case	_	_
+24	الإضافة	إِضَافَة	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	23	fixed	_	_
+25	إلى	إِلَى	ADP	P---------	AdpType=Prep	23	fixed	_	_
+26	العديد	عَدِيد	ADJ	A-----MS2D	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	_
+27	من	مِن	ADP	P---------	AdpType=Prep	28	case	_	_
+28	المناطق	مِنطَقَة	NOUN	N------P2D	Case=Gen|Definite=Def|Number=Plur	26	nmod	_	_
+29	الأخرى	آخَر	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	amod	_	_
+30	المجاورة	مُجَاوِر	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	amod	_	_
+31	مثل	مِثلَ	ADP	PI------4-	AdpType=Prep|Case=Acc	32	case	_	_
+32	الأهواز	الاهواز	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	30	obl:arg	_	_
+33-34	وتركيا	_	_	_	_	_	_	_	_
+33	و	وَ	CCONJ	C---------	_	34	cc	_	_
+34	تركيا	تُركِيَا	X	X---------	Foreign=Yes	32	conj	_	_
+35-36	وتشاد	_	_	_	_	_	_	_	_
+35	و	وَ	CCONJ	C---------	_	36	cc	_	_
+36	تشاد	تشَاد	X	X---------	Foreign=Yes	32	conj	_	_
+37	والسنغال	والسنغال	X	U---------	_	38	nmod	_	_
+38	وإريتريا	واريتريا	X	U---------	_	32	conj	_	_
+39-41	وغيرها	_	_	_	_	_	_	_	SpaceAfter=No
+39	و	وَ	CCONJ	C---------	_	40	cc	_	_
+40	غير	غَير	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	32	conj	_	_
+41	ها	هُوَ	PRON	SP---3FS2-	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nmod	_	_
+42	.	.	PUNCT	G---------	_	1	punct	_	_
+
+# sent_id = 2
+# text = وهي اللغة الرابعة من لغات منظمة الأمم المتحدة الرسمية الست.
+1-2	وهي	_	_	_	_	_	_	_	_
+1	و	وَ	CCONJ	C---------	_	0	root	_	_
+2	هي	هُوَ	PRON	SP---3FS1-	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	اللغة	لُغَة	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	1	parataxis	_	_
+4	الرابعة	رَابِع	ADJ	A-----FS1D	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	amod	_	_
+5	من	مِن	ADP	P---------	AdpType=Prep	6	case	_	_
+6	لغات	لَغَة	NOUN	N------P2R	Case=Gen|Definite=Cons|Number=Plur	3	nmod	_	_
+7	منظمة	مُنَظَّمَة	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	6	nmod	_	_
+8	الأمم	أُمَّة	NOUN	N------P2D	Case=Gen|Definite=Def|Number=Plur	7	nmod	_	_
+9	المتحدة	مُتَّحِد	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	amod	_	_
+10	الرسمية	رَسمِيّ	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	amod	_	_
+11	الست	سِتَّة	NUM	QV----F-2D	Case=Gen|Definite=Def|Gender=Fem|NumForm=Word|NumValue=3	10	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	G---------	_	1	punct	_	SpacesAfter=\n
+

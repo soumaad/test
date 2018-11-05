@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From the AP comes this story : President Bush on Tuesday nominated two individuals to replace retiring jurists on federal courts in the Washington area.
+1	From	from	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	AP	ap	NOUN	NN	Number=Sing	4	obl	_	_
+4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	story	story	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+7	:	:	PUNCT	:	_	4	punct	_	_
+8	President	President	PROPN	NNP	Number=Sing	14	nmod	_	_
+9	Bush	Bush	PROPN	NNP	Number=Sing	8	flat	_	_
+10	on	on	ADP	IN	_	8	case	_	_
+11	Tuesday	Tuesday	PROPN	NNP	Number=Sing	8	flat	_	_
+12	nominated	nominate	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+13	two	two	NUM	CD	NumType=Card	14	nummod	_	SpacesAfter=\n
+14	individuals	individual	NOUN	NNS	Number=Plur	4	appos	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	replace	replace	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	retiring	retire	VERB	VBG	VerbForm=Ger	16	xcomp	_	_
+18	jurists	jurist	NOUN	NNS	Number=Plur	17	obj	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	federal	federal	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	courts	court	NOUN	NNS	Number=Plur	17	obl	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	Washington	Washington	PROPN	NNP	Number=Sing	25	compound	_	SpacesAfter=\n
+25	area	area	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Bush nominated Jennifer M. Anderson for a 15-year term as associate judge of the Superior Court of the District of Columbia, replacing Steffen W. Graae.
+1	Bush	Bush	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	nominated	nominate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Jennifer	Jennifer	PROPN	NNP	Number=Sing	2	obj	_	_
+4	M.	M.	PROPN	NNP	Number=Sing	3	flat	_	_
+5	Anderson	Anderson	PROPN	NNP	Number=Sing	3	flat	_	_
+6	for	for	ADP	IN	_	11	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	15	15	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	year	year	NOUN	NN	Number=Sing	11	compound	_	_
+11	term	term	NOUN	NN	Number=Sing	2	obl	_	_
+12	as	as	ADP	IN	_	14	case	_	_
+13	associate	associate	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	judge	judge	NOUN	NN	Number=Sing	2	obl	_	SpacesAfter=\n
+15	of	of	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	Superior	Superior	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Court	Court	PROPN	NNP	Number=Sing	14	nmod	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	District	district	PROPN	NNP	Number=Sing	18	nmod	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	Columbia	Columbia	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	replacing	replace	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+26	Steffen	Steffen	PROPN	NNP	Number=Sing	28	compound	_	_
+27	W.	W.	PROPN	NNP	Number=Sing	26	flat	_	_
+28	Graae	Graae	PROPN	NNP	Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = *** Bush also nominated A.
+1	***	***	PUNCT	NFP	_	5	punct	_	_
+2	Bush	Bush	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	nominated	nominate	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	A	a	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Noel Anketell Kramer for a 15-year term as associate judge of the District of Columbia Court of Appeals, replacing John Montague Steadman.
+1	Noel	Noel	PROPN	NNP	Number=Sing	0	root	_	_
+2	Anketell	Anketell	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Kramer	Kramer	PROPN	NNP	Number=Sing	1	flat	_	_
+4	for	for	ADP	IN	_	9	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	15	15	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	year	year	NOUN	NN	Number=Sing	9	compound	_	_
+9	term	term	NOUN	NN	Number=Sing	1	nmod	_	_
+10	as	as	ADP	IN	_	12	case	_	_
+11	associate	associate	ADJ	JJ	Degree=Pos	12	amod	_	SpacesAfter=\n
+12	judge	judge	NOUN	NN	Number=Sing	1	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	District	District	PROPN	NNP	Number=Sing	12	nmod	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	Columbia	Columbia	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Court	Court	PROPN	NNP	Number=Sing	15	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	Appeals	Appeals	PROPN	NNPS	Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	12	punct	_	_
+22	replacing	replace	VERB	VBG	VerbForm=Ger	12	acl	_	_
+23	John	John	PROPN	NNP	Number=Sing	22	obj	_	_
+24	Montague	Montague	PROPN	NNP	Number=Sing	23	flat	_	SpacesAfter=\n
+25	Steadman	Steadman	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
